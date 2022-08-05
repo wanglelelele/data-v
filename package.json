@@ -9,5 +9,9 @@
   "devDependencies": {
     "lerna": "^5.3.0",
     "nx": "14.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanglelelele/data-v.git"
   }
 }
