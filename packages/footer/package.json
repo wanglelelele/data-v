@@ -1,5 +1,5 @@
 {
-  "name": "@footer-wangl",
+  "name": "footer-component",
   "version": "5.2.2",
   "main": "dist/index.js",
   "scripts": {
