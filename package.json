@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "build": "npx lerna run build",
+    "start": "npx lerna run dev --scope=remixapp",
+    "test": "npx lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "^5.3.0",
+    "nx": "14.2.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
