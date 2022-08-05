@@ -1,5 +1,5 @@
 {
-  "name": "footer",
+  "name": "@footer-wangl",
   "version": "5.2.2",
   "main": "dist/index.js",
   "scripts": {
@@ -19,5 +19,5 @@
     "tslib": "^2.3.1",
     "typescript": "^4.5.2"
   },
-  "gitHead": "f6b07e3f74441d17b688f11f6ed4ab9d8e0f123e"
+  "gitHead": "af56384246e442ab07e0a12bede634c0c0210989"
 }
