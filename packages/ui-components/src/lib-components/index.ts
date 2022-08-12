@@ -1,9 +1,13 @@
 export { default as UiComponentsSample } from './ui-components-sample.vue';
+export { default as IMessage } from './i-message.vue';
+
+
 import 'element-plus/es/components/button/style/css'
-// 
+import 'element-plus/es/components/message/style/css'
+
 const element = require('element-plus')
-const { ElButton } = element
-export { ElButton }
+const { ElButton, ElMessage } = element
+export { ElButton, ElMessage }
 
 
 
