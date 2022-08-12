@@ -34,6 +34,7 @@ module.exports = defineConfig({
           },
         },
       }),
+      require("unplugin-element-plus/webpack")(),
     ],
   },
 });

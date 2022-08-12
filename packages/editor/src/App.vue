@@ -1,23 +1,24 @@
 <template>
   <UiComponentsSample />
   <ElButton type="primary" @click="open">
-    I am from ui-components/lib-components, click me
+    button from ui-components by lerna, click me
   </ElButton>
+  <UIButton type="primary">button from ui by MF</UIButton>
   <Test />
 </template>
 
 <script lang="ts" setup>
 import { defineAsyncComponent } from 'vue'
-import { UiComponentsSample, ElButton, ElMessage } from 'ui-components'
+import { UiComponentsSample, ElMessage, ElButton } from 'ui-components'
 
 const Test = defineAsyncComponent(() => import('ui/TestTree.vue'))
 const open = () => {
   ElMessage('this is a message.')
 }
-// const Test1 = defineAsyncComponent(async () => {
-//   const re = await import('ui/components')
-//   return re.default.TestTree
-// })
+const UIButton = defineAsyncComponent(async () => {
+  const re = await import('ui/components')
+  return re.default.ElButton
+})
 </script>
 
 <style>
