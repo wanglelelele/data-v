@@ -1,14 +1,12 @@
 <template>
-  <div>I am from ui-components package</div>
+  <div>I am 'i-message' from 'ui-components'</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-// import { ElButton } from 'element-plus'
 
-export default /*#__PURE__*/ defineComponent({
-  name: 'IMessage', // vue component name
-  // components: { ElButton },
+export default defineComponent({
+  name: 'IMessage',
 })
 </script>
 

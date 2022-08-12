@@ -2,11 +2,11 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "build": "npx lerna run build",
-    "dev:parallel": "npx lerna run --parallel dev",
-    "dev:editor": "npx lerna run dev --scope=editor",
-    "test": "npx lerna run test",
-    "bootstrap": "npx lerna bootstrap"
+    "build": "lerna run build",
+    "dev:parallel": "lerna run --parallel dev",
+    "dev:editor": "lerna run dev --scope=editor",
+    "test": "erna run test",
+    "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
     "lerna": "^5.3.0",

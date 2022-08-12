@@ -1,15 +1,19 @@
 <template>
   <UiComponentsSample />
-  <ElButton type="primary">button-1</ElButton>
-  <IMessage />
+  <ElButton type="primary" @click="open">
+    I am from ui-components/lib-components, click me
+  </ElButton>
   <Test />
 </template>
 
 <script lang="ts" setup>
 import { defineAsyncComponent } from 'vue'
-import { UiComponentsSample, ElButton, IMessage } from 'ui-components'
+import { UiComponentsSample, ElButton, ElMessage } from 'ui-components'
 
 const Test = defineAsyncComponent(() => import('ui/TestTree.vue'))
+const open = () => {
+  ElMessage('this is a message.')
+}
 // const Test1 = defineAsyncComponent(async () => {
 //   const re = await import('ui/components')
 //   return re.default.TestTree

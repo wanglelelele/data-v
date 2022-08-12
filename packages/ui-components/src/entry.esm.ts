@@ -2,7 +2,6 @@ import { App, Plugin } from 'vue';
 
 // Import vue components
 import * as components from '@/lib-components/index';
-// export { ElButton } from 'element-plus'
 
 // install function executed by Vue.use()
 const install: Exclude<Plugin['install'], undefined> = function installUiComponents(app: App) {

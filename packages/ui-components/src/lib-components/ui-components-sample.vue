@@ -10,14 +10,15 @@
     <button @click="decrement(5)">Click -5</button>
     <button @click="reset">Reset</button>
     <div>
-      <!-- <el-button>el-button</el-button> -->
+      <i-message />
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-// import { ElButton } from 'element-plus'
+import IMessage from './i-message.vue'
+
 interface SampleData {
   counter: number
   initCounter: number
@@ -65,7 +66,7 @@ export default /*#__PURE__*/ defineComponent({
       this.message.amount = null
     },
   },
-  // components: { ElButton },
+  components: { IMessage },
 })
 </script>
 
