@@ -19,7 +19,7 @@ module.exports = defineConfig({
           // ui为之前我们remote出来的容器名称，映射其对应的远程地址。
           // 这里我手动指定了项目的端口号为8083
           // 又因为其打包后导出的文件名为remoteEntry，所以地址如下
-          // 引入完毕之后即可使用其暴露出来的/SpecialItem.vue，/SearchItem.vue，/AboutView.vue
+          // 引入完毕之后即可使用其暴露出来的
           ui: "ui@http://localhost:8083/remoteEntry.js",
         },
         shared: {

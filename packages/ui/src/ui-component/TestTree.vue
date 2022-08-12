@@ -1,3 +1,7 @@
 <template>
-  <div>i am from ui package, by webpack mf, see vue.config.js</div>
+  <div>I am from ui package, by webpack MF, see vue.config.js</div>
+  <TestChild />
 </template>
+<script setup>
+import TestChild from './TestChild.vue'
+</script>

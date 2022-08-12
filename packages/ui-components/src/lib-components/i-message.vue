@@ -1,5 +1,5 @@
 <template>
-  <div>I am 'i-message' from 'ui-components'</div>
+  <div>I am 'i-message', from 'ui-components'</div>
 </template>
 
 <script lang="ts">
