@@ -4,7 +4,10 @@ module.exports = defineConfig({
   pages: {
     index: {
       entry: "./dev/serve.ts",
-    },
+    }
+  },
+  devServer: {
+    port: 8081,
   },
   configureWebpack: {
     plugins: [

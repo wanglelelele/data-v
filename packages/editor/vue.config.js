@@ -8,7 +8,7 @@ module.exports = defineConfig({
     },
   },
   devServer: {
-    port: 8081,
+    port: 8090,
   },
   configureWebpack: {
     plugins: [
